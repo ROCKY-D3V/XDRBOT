@@ -1,7 +1,6 @@
 <h1 align="center">xᴅ Rᴏʙᴏᴛ</h1>
 <p align="center">
-  
-</p>
+<p>
 <p align="center">
 <a href="https://github.com/ROCKY-D3V/XDRBOT/stargazers"><img src="https://img.shields.io/github/stars/ROCKY-D3V/XDRBOT?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
 <a href="https://github.com/ROCKY-D3V/XDRBOT/network/members"> <img src="https://img.shields.io/github/forks/ROCKY-D3V/XDRBOT?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
