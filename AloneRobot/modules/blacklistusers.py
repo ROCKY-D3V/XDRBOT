@@ -1,4 +1,4 @@
-# Module to blacklist users and prevent them from using commands by @ALONE_WAS_BOT
+# Module to blacklist users and prevent them from using commands by @ROCKY_ISS_BACK
 import html
 
 from telegram import ParseMode, Update
