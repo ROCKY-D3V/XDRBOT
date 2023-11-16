@@ -217,11 +217,17 @@ def start(update: Update, context: CallbackContext):
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
             time.sleep(0.4)
-            lol.edit_text("🎊")
+            lol.edit_text("😇")
             time.sleep(0.5)
             lol.edit_text("⚡")
             time.sleep(0.3)
+            lol.edit_text("💫")
+            time.sleep(0.4
             lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ... ")
+            time.sleep(0.4
+            lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ.... ")
+            time.sleep(0.4
+            lol.edit_text("ʜᴏ ɢʏᴀ sᴛᴀʀᴛ.... ")
             time.sleep(0.4)
             lol.delete()
             
@@ -385,7 +391,7 @@ def Alone_about_callback(update: Update, context: CallbackContext):
                             text="Sᴜᴩᴩᴏʀᴛ", callback_data="alone_support"
                         ),
                         InlineKeyboardButton(
-                            text="ᴄᴏᴍᴍᴀɴᴅs 💁", callback_data="Main_help"
+                            text="ᴄᴏᴍᴍᴀɴᴅs ", callback_data="Main_help"
                         ),
                     ],
                     [
@@ -450,16 +456,16 @@ def AloneRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="📕 Mᴀɴᴀɢᴇᴍᴇɴᴛ", callback_data="help_back"),
-                        InlineKeyboardButton(text="Mᴜsɪᴄ 🎧", callback_data="Music_")
+                        InlineKeyboardButton(text="💫 Mᴀɴᴀɢᴇᴍᴇɴᴛ 💫", callback_data="help_back"),
+                        InlineKeyboardButton(text="🎧 Mᴜsɪᴄ 🎧", callback_data="Music_")
                     ],
                     [
-                        InlineKeyboardButton(text="💁 Bᴀsɪᴄ ", callback_data="basic_help"),
-                        InlineKeyboardButton(text="Exᴘᴇʀᴛ 👮", callback_data="expert_help")
+                        InlineKeyboardButton(text="😝 Bᴀsɪᴄ 😝", callback_data="basic_help"),
+                        InlineKeyboardButton(text="😇 Exᴘᴇʀᴛ 😇", callback_data="expert_help")
                     ],
                     [
-                        InlineKeyboardButton(text="🍹 Aᴅᴠᴀɴᴄᴇ", callback_data="advance_help"),
-                        InlineKeyboardButton(text="Dᴏɴᴀᴛɪᴏɴ 🎉", callback_data="donation_help") 
+                        InlineKeyboardButton(text="🥀 Aᴅᴠᴀɴᴄᴇ 🥀", callback_data="advance_help"),
+                        InlineKeyboardButton(text="😜 Dᴏɴᴀᴛɪᴏɴ 😜", callback_data="donation_help") 
                     ],
                     [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="alone_back")]
                 ]
@@ -609,11 +615,11 @@ def Source_about_callback(update: Update, context: CallbackContext):
         InlineKeyboardButton(text="sᴏᴜʀᴄᴇ", url="\x68\x74\x74\x70\x73\x3A\x2F\x2F\x67\x69\x74\x68\x75\x62\x2E\x63\x6F\x6D\x2F\x54\x65\x61\x6D\x41\x6C\x6F\x6E\x65\x4F\x70\x2F\x41\x6C\x6F\x6E\x65\x52\x6F\x62\x6F\x74")
                 ],
                  [
-        InlineKeyboardButton(text="🏡", callback_data="alone_back"),
-        InlineKeyboardButton(text="🛡️", callback_data="alone_"),
-        InlineKeyboardButton(text="💳", callback_data="source_"),
-        InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
+        InlineKeyboardButton(text="🚩", callback_data="alone_back"),
+        InlineKeyboardButton(text="😈", callback_data="alone_"),
+        InlineKeyboardButton(text="😇", callback_data="source_"),
+        InlineKeyboardButton(text="🥀", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="✨", callback_data="Main_help"),
      ],[InlineKeyboardButton(text="◁", callback_data="source_back")]]
             ),
         )
@@ -1045,7 +1051,7 @@ def main():
                     [
                         InlineKeyboardButton(
                             text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ➕",
-                            url="https://t.me/AloneXRobot?startgroup=true"
+                            url="https://t.me/ADVANCE_XD_BOT?startgroup=true"
                             )
                        ]
                 ]
@@ -1058,7 +1064,7 @@ def main():
                 caption=f"""
 ✨ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
 ━━━━━━━━━━━━━
-**ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ [ᴧŁꪮɳᴇ](https://t.me/ALONE_WAS_BOT)**
+**ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ [ʀᴏᴄᴋʏ](https://t.me/ROCKY_ISS_BACK)**
 **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{y()}`
 **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ:** `{telever}`
 **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{tlhver}`
