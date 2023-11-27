@@ -582,7 +582,7 @@ Yᴏᴜ ᴄᴀɴ ʜᴇʟᴘ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴡɪᴛʜ 
             reply_markup=InlineKeyboardMarkup(
                 [ 
                     [
-                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url="https://t.me/XD_N3TWORK"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="alone_support")
+                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url="https://t.me/XD_N3TWORK"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="XD_N3TWORK")
                     ]
                 ]
             ),
