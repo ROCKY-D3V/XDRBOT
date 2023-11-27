@@ -19,7 +19,7 @@ async def gps(bot, message):
         
         """
         ---------github :-TeamAloneOp -----
-        ---------telegram : @ALONE_WAS_BOT-----
+        ---------telegram : @ROCKY_ISS_BACK-----
         """
         geolocator = Nominatim(user_agent="legend-Alone")
 #         zoom=[0-18]
@@ -64,7 +64,7 @@ async def distance(bot, message):
 
         """
         ---------github :-TeamAloneOp -----
-        ---------telegram : @ALONE_WAS_BOT-----
+        ---------telegram : @ROCKY_ISS_BACK-----
         """
         distance=(great_circle(x,y).miles)
 

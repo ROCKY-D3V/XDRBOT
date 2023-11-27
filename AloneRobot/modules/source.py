@@ -9,7 +9,7 @@ from telethon import __version__ as s
 from AloneRobot import OWNER_ID, dispatcher
 from AloneRobot import pbot as client
 
-Alone = "https://graph.org/file/1d59f8d5e0d9f68252ad3.jpg"
+Alone = "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg"
 
 
 @client.on_message(filters.command(["repo", "source"]))
@@ -18,24 +18,24 @@ async def repo(client, message):
         photo=Alone,
         caption=f"""**ʜᴇʏ​ {message.from_user.mention()},\n\nɪ ᴀᴍ [{dispatcher.bot.first_name}](t.me/{dispatcher.bot.username})**
 
-**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [ʀᴏᴄᴋყ](tg://user?id={OWNER_ID})
+**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [Aʟᴏɴᴇ](tg://user?id={OWNER_ID})
 **» ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
 **» ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}` 
 **» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}` 
 **» ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{z}`
 
-**✘ᴅ Rᴏʙᴏᴛ sᴏᴜʀᴄᴇ ɪs ɴᴏᴛ ᴩᴜʙʟɪᴄ ᴀɴᴅ ʏᴏᴜ ᴄᴀɴ'ᴛ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ.**
+**Aʟᴏɴᴇ ✘ Rᴏʙᴏᴛ sᴏᴜʀᴄᴇ ɪs ɴᴏᴡ ᴩᴜʙʟɪᴄ ᴀɴᴅ ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ.**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
                         "• ᴏᴡɴᴇʀ ",
-                        url="https://t.me/ROCKY_ISS_BACK"
+                        url="\x68\x74\x74\x70\x73\x3A\x2F\x2F\x74\x2E\x6D\x65\x2F\x41\x4C\x4F\x4E\x45\x5F\x57\x41\x53\x5F\x42\x4F\x54"
                     ),
                     InlineKeyboardButton(
                         "• ʀᴇᴘᴏ •",
-                        url="https://t.me/N91Ab/6",
+                        url="https://github.com/TeamAloneOp/AloneXRobot",
                     ),
                 ]
             ]
