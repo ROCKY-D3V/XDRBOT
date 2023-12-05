@@ -139,13 +139,17 @@ TAGMES = [ " **𝐇𝐞𝐲 𝐁𝐚𝐛𝐲 𝐊𝐚𝐡𝐚 𝐇𝐨🥱** ",
            " **𝐆𝐨𝐨𝐝 𝐍8 𝐉𝐢 𝐁𝐡𝐮𝐭 𝐑𝐚𝐭 𝐇𝐨 𝐠𝐲𝐢🥰** ",
            ]
 
-@app.on_message(filters.command(["tagall", "all", "tagmember", "utag", "stag", "hftag", "bstag", "eftag", "tag", "etag", "utag", "atag" ], prefixes=["/", "@", "#"]))
+@client.on(events.NewMessage(pattern="^@tagall ?(.*)"))
+@client.on(events.NewMessage(pattern="^@all ?(.*)"))
+@client.on(events.NewMessage(pattern="^/tagall ?(.*)"))
+@client.on(events.NewMessage(pattern="^@mention ?(.*)"))
 async def mentionall(event):
     chat_id = event.chat_id
     if event.is_private:
         return await event.respond(
             "__This command can be use in groups and channels!__"
         )
+
 
     is_admin = False
     try:
