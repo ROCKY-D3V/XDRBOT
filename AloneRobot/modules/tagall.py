@@ -139,10 +139,7 @@ TAGMES = [ " **𝐇𝐞𝐲 𝐁𝐚𝐛𝐲 𝐊𝐚𝐡𝐚 𝐇𝐨🥱** ",
            " **𝐆𝐨𝐨𝐝 𝐍8 𝐉𝐢 𝐁𝐡𝐮𝐭 𝐑𝐚𝐭 𝐇𝐨 𝐠𝐲𝐢🥰** ",
            ]
 
-@client.on(events.NewMessage(pattern="^@tagall ?(.*)"))
-@client.on(events.NewMessage(pattern="^@all ?(.*)"))
-@client.on(events.NewMessage(pattern="^/tagall ?(.*)"))
-@client.on(events.NewMessage(pattern="^@mention ?(.*)"))
+@app.on_message(filters.command(["tagall", "all", "tagmember", "utag", "stag", "hftag", "bstag", "eftag", "tag", "etag", "utag", "atag" ], prefixes=["/", "@", "#"]))
 async def mentionall(event):
     chat_id = event.chat_id
     if event.is_private:
@@ -183,18 +180,21 @@ async def mentionall(event):
     spam_chats.append(chat_id)
     usrnum = 0
     usrtxt = ""
-    async for usr in client.iter_participants(chat_id):
+    async for usr in client.iter_chat_members(chat_id):
         if not chat_id in spam_chats:
             break
+        if usr.user.is_bot:
+            continue
         usrnum += 1
-        usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}), "
-        if usrnum == 15:
+        usrtxt += f"[{usr.user.first_name}](tg://user?id={usr.user.id}) "
+
+        if usrnum == 1:
             if mode == "text_on_cmd":
-                txt = f"{msg}\n{usrtxt}"
+                txt = f"{usrtxt} {random.choice(TAGMES)}"
                 await client.send_message(chat_id, txt)
             elif mode == "text_on_reply":
-                await msg.reply(usrtxt)
-            await asyncio.sleep(3)
+                await msg.reply(f"[{random.choice(EMOJI)}](tg://user?id={usr.user.id})")
+            await asyncio.sleep(4)
             usrnum = 0
             usrtxt = ""
     try:
